@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4450
+
+Just like ack.vim but for the faster 'ag' utility.
+
+If you're familiar with ag, see: https://github.com/rking/ag.vim#readme
+
+And if you're not, see: https://github.com/ggreer/the_silver_searcher
