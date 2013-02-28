@@ -3,7 +3,7 @@
 " Location of the ag utility
 if !exists("g:agprg")
   let s:agcommand = executable('ag-grep') ? 'ag-grep' : 'ag'
-  let g:agprg=s:agcommand." -H --nocolor --nogroup --column"
+  let g:agprg=s:agcommand." --nocolor --nogroup --column"
 endif
 
 if !exists("g:ag_apply_qmappings")
